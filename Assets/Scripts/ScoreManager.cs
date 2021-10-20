@@ -17,4 +17,4 @@ public class ScoreManager : MonoBehaviour
     {
         text.text = coinAmount.ToString();
     }
-}
+} 

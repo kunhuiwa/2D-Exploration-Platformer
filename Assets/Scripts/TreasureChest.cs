@@ -27,4 +27,4 @@ public class TreasureChest : MonoBehaviour
             Chest.SetActive(true);
         }
     }
-}
+} 

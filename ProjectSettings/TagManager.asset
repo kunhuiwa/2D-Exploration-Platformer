@@ -8,6 +8,8 @@ TagManager:
   - Ground
   - Seed
   - Chest
+  - PurpleBox
+  - GreenBox
   layers:
   - Default
   - TransparentFX

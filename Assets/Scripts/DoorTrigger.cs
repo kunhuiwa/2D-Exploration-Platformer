@@ -6,7 +6,7 @@ public class DoorTrigger : MonoBehaviour
 {
     public BoxCollider2D boxCollider;
     public GameObject Door;
-    Vector3 newPos = new Vector3(22.5f, 7.0f, 0f);
+    Vector3 newPos = new Vector3(29.5f, 12f, 0f);
     SpriteRenderer m_SpriteRenderer;
     Color m_NewColor;
 
@@ -22,11 +22,11 @@ public class DoorTrigger : MonoBehaviour
     // Update is called once per frame
     private void OnTriggerEnter2D(Collider2D collision)
     {
-            if (collision.CompareTag("Player"))
-            {
-                Debug.Log("The player has opened the door", gameObject);
-                Door.transform.position = newPos;
-                m_SpriteRenderer.color = Color.green;
+        if (collision.CompareTag("Player"))
+        {
+            Debug.Log("The player has opened the door", gameObject);
+            Door.transform.position = newPos;
+            m_SpriteRenderer.color = Color.green;
         }
     }
 }

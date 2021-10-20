@@ -10,4 +10,4 @@ public class SeedManager : MonoBehaviour
             Destroy(gameObject);
             Debug.Log("Collected a Seed");
     }
-}
+} 
