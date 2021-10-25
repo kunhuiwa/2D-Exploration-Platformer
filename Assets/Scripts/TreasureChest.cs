@@ -23,6 +23,7 @@ public class TreasureChest : MonoBehaviour
     {
         if (collision.CompareTag("Key"))
         {
+            Destroy(gameObject);
             Debug.Log("The CHEST IS OPENED!");
             Chest.SetActive(true);
         }
